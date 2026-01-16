@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <h1>CALCULATOR</h1>
+    </header>
+        <main>
+              <div>
+                <input id="input-field" type="text" readonly>
+              </div>
+             <div id="buttons">
+                <button class="btn" onclick="clickBtn('7')">7</button>  <!--onclick event listeners pass the number as an arguments,which recieves via through parameters value-->
+                <button class="btn" onclick="clickBtn('8')">8</button>
+                <button class="btn" onclick="clickBtn('9')">9</button>
+                <button class="btn" onclick="clickBtn('C')">C</button>
+
+                <button class="btn" onclick="clickBtn('4')">4</button>
+                <button class="btn" onclick="clickBtn('5')">5</button>
+                <button class="btn" onclick="clickBtn('6')">6</button>
+                <button class="btn" onclick="clickBtn('+')">+</button>
+
+                <button class="btn" onclick="clickBtn('1')">1</button>
+                <button class="btn" onclick="clickBtn('2')">2</button>
+                <button class="btn" onclick="clickBtn('3')">3</button>
+                <button class="btn" onclick="clickBtn('-')">-</button>
+
+                <button class="btn" onclick="clickBtn('/')">/</button>
+                <button class="btn" onclick="clickBtn('*')">*</button>
+                <button class="btn" onclick="clickBtn('=')">=</button>
+                <button class="btn" onclick="clickBtn('0')">0</button>
+             </div>
+        </main>
+    </div>
+
+
+ <script src="script.js"></script>       
+</body>
+</html>
