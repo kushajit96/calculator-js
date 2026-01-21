@@ -81,14 +81,14 @@ console.table({
             inputEl.value = firstNumber;
           }else{
             secondNumber += value;
-            inputEl.value = secondNumber;
+            inputEl.value = firstNumber + operator + secondNumber;
           }
         } 
       
       //OPERATOR CLICKED  
       else if("+-*/".includes(value)){
           operator += value;
-          inputEl.value = operator;
+          inputEl.value = firstNumber + operator;
           isSecondNumber = true;
       }  
       
